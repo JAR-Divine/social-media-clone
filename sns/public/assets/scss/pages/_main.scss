@@ -1,0 +1,89 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+
+  .login_div {
+    display: flex;
+    flex-grow: 1.5;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    height: 100%;
+    border-radius: 8px;
+
+    h1 {
+      font-family: "Montserrat-Bold", sans-serif;
+      color: orange;
+      font-size: 48px;
+    }
+
+    h2 {
+      font-family: "Montserrat-Regular", sans-serif;
+      color: $indigo;
+    }
+  }
+
+  .register_div {
+    background-image: url("../public/assets/images/background/honeycomb.png");
+    object-fit: fill;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 4;
+    height: 100%;
+
+    h1 {
+      font-family: "Montserrat-Regular", sans-serif;
+      color: $indigo;
+      font-size: 32px;
+    }
+    p {
+      font-family: "Montserrat-Regular", sans-serif;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.log_btn,
+.reg_btn {
+  background-color: $indigo;
+  border: 2px solid $indigo;
+  border-radius: 4px;
+  margin: 5px 0 10px 0;
+  padding: 5px 10px 5px 10px;
+  color: whitesmoke;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  background-color: rgb(227, 227, 227);
+  border: 2px solid rgb(227, 227, 227);
+  border-radius: 4px;
+  margin: 5px 0 5px 0;
+  padding: 5px 10px 5px 10px;
+  color: black;
+  width: 90%;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover,
+select:hover {
+  border-color: $indigo;
+}

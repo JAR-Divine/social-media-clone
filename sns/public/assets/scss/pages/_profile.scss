@@ -1,0 +1,56 @@
+.profile_box {
+  display: flex;
+  justify-content: center;
+  margin: 2% 30% 7% 30%;
+
+  background-color: $yellow;
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 2px 1px grey;
+
+  .profile_img {
+    width: 25%;
+    height: 25%;
+    border-radius: 5px;
+    margin-right: 3%;
+    margin-top: 3%;
+  }
+
+  .profile_info {
+    font-family: "Montserrat-Regular", "sans-serif";
+    padding-left: 10%;
+  }
+}
+
+.unfriend,
+.confirm_req,
+.req_pending {
+  border: none;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  margin-top: 50%;
+  margin-left: 20%;
+  padding: 10%;
+  border-radius: 6px;
+  color: $indigo;
+}
+
+.add_friend {
+  border: none;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  margin-top: 60%;
+  margin-left: 50%;
+  padding: 10%;
+  border-radius: 6px;
+  color: $indigo;
+  font-size: 15px;
+}
+
+.post_profile_btn {
+  width: 15%;
+  height: 20%;
+}

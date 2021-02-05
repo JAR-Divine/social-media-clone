@@ -1,0 +1,15 @@
+1. Jar Asuncion
+username: jar@gmail.com
+password: 123456
+
+2. Emma Richardson
+username: emrich@gmail.com
+password: 123456789
+
+3. Tony Stark
+username: stark@gmail.com
+password: 123456
+
+4. Jennie Kim
+username: jen@gmail.com
+password: 123456
